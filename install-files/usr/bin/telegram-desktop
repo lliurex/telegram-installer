@@ -6,6 +6,6 @@ TELEGRAM_EPI="/usr/share/zero-lliurex-telegram/telegram.epi"
 if [ -e "$TELEGRAM_BIN" ]; then
 	exec $TELEGRAM_BIN
 else
-	epi-gtk $TELEGRAM_EPI
+	pkexec /usr/share/zero-center/zmds/zero-lliurex-telegram.zmd
 fi
 
