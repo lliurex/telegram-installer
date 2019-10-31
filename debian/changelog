@@ -1,3 +1,9 @@
+telegram-installer (0.2) bionic; urgency=medium
+
+  * Using pkexec zmd instead of epi directly
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Thu, 31 Oct 2019 14:14:23 +0100
+
 telegram-installer (0.1) bionic; urgency=medium
 
   * Initial release.
