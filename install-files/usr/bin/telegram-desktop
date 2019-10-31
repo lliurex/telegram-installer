@@ -1,0 +1,11 @@
+#!/bin/bash
+
+TELEGRAM_BIN="$HOME/.local/bin/telegram/Telegram/Telegram"
+TELEGRAM_EPI="/usr/share/zero-lliurex-telegram/telegram.epi"
+
+if [ -e "$TELEGRAM_BIN" ]; then
+	exec $TELEGRAM_BIN
+else
+	epi-gtk $TELEGRAM_EPI
+fi
+
