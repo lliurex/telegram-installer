@@ -3,11 +3,6 @@
 set -e
 
 
-if [ "$1" = "remove" ] ; then
-	
-
-	# DO NOTHING
-fi
 #DEBHELPER#
 
 exit 0
