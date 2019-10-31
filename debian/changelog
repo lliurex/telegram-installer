@@ -1,4 +1,4 @@
-telegram-installer (0.2) bionic; urgency=medium
+telegram-installer (0.2.1) bionic; urgency=medium
 
   * Using pkexec zmd instead of epi directly
 
