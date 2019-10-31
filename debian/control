@@ -1,0 +1,14 @@
+Source: telegram-installer
+Section: admin
+Priority: optional
+Maintainer: Equipo LliureX <lliurex@gva.es>
+Build-Depends: debhelper (>= 9.0)
+Standards-Version: 4.1.2
+
+Package: telegram-installer
+Architecture: all
+Depends: ${misc:Depends}, zero-lliurex-telegram
+Conflicts: telegram-desktop
+Description: Telegram installer 
+ Script to install telegram per user  
+
