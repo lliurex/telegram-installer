@@ -1,10 +1,11 @@
 #!/bin/bash
 
 TELEGRAM_BIN="$HOME/.local/bin/telegram/Telegram/Telegram"
+LLX_TELEGRAM="/usr/bin/telegram"
 TELEGRAM_EPI="/usr/share/zero-lliurex-telegram/telegram.epi"
 
 if [ -e "$TELEGRAM_BIN" ]; then
-	exec $TELEGRAM_BIN
+	exec $LLX_TELEGRAM
 else
 	pkexec /usr/share/zero-center/zmds/zero-lliurex-telegram.zmd
 fi
