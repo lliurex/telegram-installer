@@ -1,3 +1,9 @@
+telegram-installer (0.3) focal; urgency=medium
+
+  * Focal release 
+
+ -- Juanma1980 <juanma1980@gmail.com>  Wed, 05 May 2021 11:05:38 +0200
+
 telegram-installer (0.2.2) bionic; urgency=medium
 
   * Using /usr/bin/telegram from zero-lliurex-telegram package
