@@ -4,9 +4,14 @@ TELEGRAM_BIN="$HOME/.local/bin/telegram/Telegram/Telegram"
 LLX_TELEGRAM="/usr/bin/telegram"
 TELEGRAM_EPI="/usr/share/zero-lliurex-telegram/telegram.epi"
 
-if [ -e "$TELEGRAM_BIN" ]; then
-	exec $LLX_TELEGRAM
-else
-	pkexec /usr/share/zero-center/zmds/zero-lliurex-telegram.zmd
+CHECK_GROUP=$(id -nG $USER | grep "students")
+
+if [ -z $CHECK_GROUP ]
+then
+	if [ -e "$TELEGRAM_BIN" ]; then
+		exec $LLX_TELEGRAM
+	else
+		exec /usr/share/zero-center/zmds/zero-lliurex-telegram.zmd
+	fi
 fi
 
