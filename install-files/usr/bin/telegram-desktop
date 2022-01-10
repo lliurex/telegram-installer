@@ -4,6 +4,7 @@ TELEGRAM_BIN="$HOME/.local/bin/telegram/Telegram/Telegram"
 LLX_TELEGRAM="/usr/bin/telegram"
 TELEGRAM_EPI="/usr/share/zero-lliurex-telegram/telegram.epi"
 
+USER=$(id -un $PKEXEC_UID)
 CHECK_GROUP=$(id -nG $USER | grep "students")
 
 if [ -z $CHECK_GROUP ]
