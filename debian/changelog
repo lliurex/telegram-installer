@@ -1,3 +1,9 @@
+telegram-installer (0.2.4) bionic-updates; urgency=medium
+
+  * Fixed to use with CDC
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 11 Jan 2022 17:21:06 +0100
+
 telegram-installer (0.2.3) bionic-updates; urgency=medium
 
   * Fixed to use with CDC
